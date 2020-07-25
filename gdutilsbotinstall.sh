@@ -131,7 +131,7 @@ echo -e "\033[1;32m“nginx”起一个web服务......\033[0m"
 
 cd $nginx_conf
 echo "server {
-listen 8080;
+listen 888;
 server_name $YOUR_DOMAIN_NAME;
 location / {
     proxy_pass http://127.0.0.1:23333/;
